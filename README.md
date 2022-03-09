@@ -2,7 +2,7 @@
 Project0 for CS50's Web Programming with HTML, CSS and JavaScript Course
 
 
-<div> following requirements:
+<div>The website must meet the following requirements:
     <ul>
         The website should have at least three pages: one for regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search.
         <ul>On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.</ul>
@@ -31,6 +31,5 @@ Project0 for CS50's Web Programming with HTML, CSS and JavaScript Course
     </ul>
     <ul>
         The CSS code should resemble Google’s own aesthetics.
-        tututu
     </ul>
 </div>
