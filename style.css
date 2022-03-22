@@ -1,27 +1,68 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(245, 244, 244);
+    text-align: center;
 }
 
-h3 > a:link {
-    text-decoration: none;
-    border: 1px solid black;
-    color: black;
-    display: block;
-    width: 200px;
-    margin-left: 35%;
-    text-align: center;
-    margin-bottom: 1px;
-    padding: 5px;
-    background-color: whitesmoke;
+
+
+#links{
+    text-align: right;
+    margin-bottom: 30px;
         
 }
 
-a:hover, a:active {
-    background-color: blueviolet ;
-    color: darkkhaki;
+#links > a{
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 9px;
+    position: relative;
+    right: 1%;
+}
+
+#links > a:hover {
+    text-decoration: underline;
+    
 }
 
 #logo {
     width: 272px;
     height: 92;
+}
+
+
+#bar {
+    border-radius: 50px;
+    text-indent: 50px;
+    padding-top: 2px;
+    text-align: left;
+    padding: 6px 0px;
+    margin-bottom: 15px;
+    border: 1px;
+    width: 45%;
+    min-width: 250px;
+    background-image: url(lupa.png);
+    background-repeat: no-repeat;
+    background-position: 9px 6px;
+    background-size: 17px;
+    font-size: 12px;
+    box-shadow: 0 0 0.2em #888;
+    
+}
+
+div > input{
+    padding: 6px 18px;
+    border-radius: 2px;
+    /* border-style: solid; */
+    border: 1px transparent;
+}
+
+
+div > input:hover {
+    box-shadow: 0 0 0.2em #888
+}
+
+h6 > a:hover, a:active {
+    background-color: blueviolet ;
+    color: darkkhaki;
 }
