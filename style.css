@@ -30,6 +30,10 @@ body {
     height: 92;
 }
 
+#imageLogo {
+    margin-bottom: 15px;
+}
+
 
 #bar {
     border-radius: 50px;
@@ -65,4 +69,14 @@ div > input:hover {
 h6 > a:hover, a:active {
     background-color: blueviolet ;
     color: darkkhaki;
+}
+
+#textImages {
+    color: #4285f4;;
+    position: relative;
+    left: -60px;
+    top: -8px;
+    white-space: nowrap;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+
 }
