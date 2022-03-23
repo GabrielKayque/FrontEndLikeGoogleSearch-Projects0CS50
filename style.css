@@ -34,6 +34,14 @@ body {
     margin-bottom: 15px;
 }
 
+#advancedLogo {
+    display: flex;
+    margin-top: -30px;
+    width: 74px;
+    height: 24;
+    
+}
+
 
 #bar {
     border-radius: 50px;
@@ -78,5 +86,60 @@ h6 > a:hover, a:active {
     top: -8px;
     white-space: nowrap;
     font: 16px/16px roboto-regular, arial, sans-serif;
+    
+}
 
+#advancedBar {
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+span > input {
+    position: absolute;
+    left: 160px;
+    width: 50%;
+    min-width: 50px;
+    height: 13px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+
+}
+
+#advancedSearchText {
+    display: flex;
+    color: #d93025;
+    cursor: default;
+    margin-left: 20px;
+    
+}
+
+#findPg {
+    display: flex;
+    align-items: left;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+#advancedMargin {
+    margin-left: 20px;
+}
+
+#advancedBtn {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #ffff;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#advancedBtn:hover {
+    box-shadow: 0 0 0.2em linear-gradient(top,#4d90fe,#4787ed)
+    
 }
