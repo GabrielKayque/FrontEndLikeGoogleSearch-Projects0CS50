@@ -1,4 +1,4 @@
-# Projects0-CS50
+# Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
 Project0 for CS50's Web Programming with HTML, CSS and JavaScript Course
 
 
